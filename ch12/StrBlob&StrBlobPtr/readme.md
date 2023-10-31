@@ -18,7 +18,7 @@ StrBlob使用标准库智能指针shared_ptr保存容器底层数据，保留默
 14. operator < (const StrBlob& lhs, const StrBlob& rhs);
 15. operator > (const StrBlob& lhs, const StrBlob& rhs);
 
-StrBlobPtr使用标准库智能指针weak_ptr指向对应的StrBlob的数据。StrBlob以实现操作：
+StrBlobPtr使用标准库智能指针weak_ptr指向对应的StrBlob的数据。StrBlob已实现操作：
 1. operator ++ ();
 2. operator -- ();
 3. operator ++ (int);
